@@ -5,4 +5,4 @@ setInterval(() => {
         btn.style.display = 'flex';
         btn.href = 'https://chat.vipajudabrasil.uk/lp4';
     })
-}, 0)
+}, 1)
