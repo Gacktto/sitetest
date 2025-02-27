@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    flex-direction: column;
+    flex-direction: column; 
     font-family: Helvetica;
     overflow-y: scroll;
 }
@@ -57,12 +57,13 @@ span {
     padding: 20px;
     box-sizing: border-box;
     background-color: white;
-    min-height: 100%;
+    height: fit-content;
+    overflow: visible;
 }
 
 .wrapper {
-    height: fit-content;
-    width: 800px;
+    height: fit;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: start;
